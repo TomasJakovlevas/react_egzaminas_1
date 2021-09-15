@@ -16,7 +16,7 @@ function Task6() {
           <h3>Task 6</h3>
           <h4>Count: {counter}</h4>
           <CompA />
-          {/*<CompB />*/}
+          <CompB />
         </div>
       </Counter.Provider>
     </>

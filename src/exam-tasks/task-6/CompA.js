@@ -11,8 +11,20 @@ function CompA() {
   return (
     <div>
       <h2>CompA</h2>
-      <button onClick={() => {}}>+</button>
-      <button>-</button>
+      <button
+        onClick={() => {
+          setCounter(counter + 10);
+        }}
+      >
+        +
+      </button>
+      <button
+        onClick={() => {
+          setCounter(counter - 10);
+        }}
+      >
+        -
+      </button>
       <CompA1 />
     </div>
   );
